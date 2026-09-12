@@ -1,0 +1,13 @@
+# Project-specific overrides
+# See https://github.com/github/linguist 
+*.svg text
+public/index.html linguist-vendored
+vendor/* linguist-vendored
+*.ico binary
+*.bat text eol=crlf
+*.ts linguist-detectable
+*.png binary
+*.jpg binary
+Cargo.lock linguist-generated
+
+# eof 2cf7ea28
